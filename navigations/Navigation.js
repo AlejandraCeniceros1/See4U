@@ -23,30 +23,30 @@ function Navigation() {
                 inactiveTintColor: "#8aa4b0",
                 activeTintColor: "#4faedb",
             }}>
-        
-        <Stack.Screen
-            name = "Home"
-            component = {OpticStack}
-            options = {{ title: "¡Welcome back!"}}
-        ></Stack.Screen>
+          
+          <Stack.Screen
+              name = "Home"
+              component = {OpticStack}
+              options = {{ title: "¡Welcome back!"}}
+          />
 
-        <Stack.Screen 
-            name= "Second"
-            component = {EyesStack}
-            options = {{ title: "Autorefractometer"}}
+          <Stack.Screen 
+              name= "Second"
+              component = {EyesStack}
+              options = {{ title: "Autorefractometer"}}
+          />
 
-        ></Stack.Screen>
-        <Stack.Screen 
-            name= "Thrd"
-            component = {AccountStack}
-            options = {{ title: "Account"}}
-                
-        ></Stack.Screen>
-        <Stack.Screen 
-            name= "Four"
-            component = {SettingsStack}
-            options = {{ title: "a"}}
-        ></Stack.Screen>
+          <Stack.Screen 
+              name= "Thrd"
+              component = {AccountStack}
+              options = {{ title: "Account"}}
+                  
+          />
+          <Stack.Screen 
+              name= "Four"
+              component = {SettingsStack}
+              options = {{ title: "a"}}
+          />
         </Stack.Navigator>
 
     );
