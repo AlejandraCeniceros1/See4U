@@ -10,4 +10,3 @@ export default function Account() {
 }
 
 const styles = StyleSheet.create({})
-

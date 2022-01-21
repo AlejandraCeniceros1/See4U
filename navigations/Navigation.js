@@ -1,16 +1,12 @@
 //
 import React from 'react'
-import Eyes from '../screens/Eyes'
-import Account from '../screens/Account'
-import Home from '../screens/Home'
-import Settings from '../screens/Settings'
+
 //
 import OpticStack from './OpticStack'
 import EyesStack from './EyesStack'
 import AccountStack from './AccountStack'
 import SettingsStack from './SettingsStack'
 //tr
-import { Icon } from 'react-native-elements'
 import { createStackNavigator } from '@react-navigation/stack';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
