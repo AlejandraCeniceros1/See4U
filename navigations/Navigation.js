@@ -20,8 +20,14 @@ function Navigation() {
         <Stack.Navigator
             initialRouteName = "Home"
             screenOptions = {{
-                inactiveTintColor: "#8aa4b0",
-                activeTintColor: "#4faedb",
+              "tabBarActiveTintColor": "#4faedb",
+              "tabBarInactiveTintColor": "#8aa4b0",
+              "tabBarStyle": [
+                {
+                  "display": "flex"
+                },
+                null
+              ]
             }}>
           
           <Stack.Screen
@@ -59,9 +65,15 @@ function App() {
       <NavigationContainer>
         <Tab.Navigator
           initialRouteName="Feed"
-          tabBarOptions={{
-            activeTintColor: '#4faedb',
-            inactiveTintColor: "#8aa4b0",
+          screenOptions={{
+            "tabBarActiveTintColor": "#4faedb",
+            "tabBarInactiveTintColor": "#8aa4b0",
+            "tabBarStyle": [
+              {
+                "display": "flex"
+              },
+              null
+            ]
           }}>
           <Tab.Screen
             name="¡Welcome back!"
