@@ -10,7 +10,7 @@ export default function EyesStack() {
             <Stack.Screen
                 name= "Start"
                 component ={Eyes}
-                options={ {title: "Autroefractometer"}}
+                options={ {title: "Autorefractometer"}}
             />
         </Stack.Navigator>
     )
